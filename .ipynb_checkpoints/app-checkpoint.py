@@ -218,7 +218,7 @@ if show_bridge_position:
                                           )
                
                 # Pose estimation sonuçlarını içeren frame'i Streamlit'te göster
-                st_video_2.video(cv2.cvtColor(image, cv2.COLOR_BGR2RGB), use_column_width=True)
+                st_video_2.image(cv2.cvtColor(image, cv2.COLOR_BGR2RGB), use_column_width=True)
     
             cap.release()
 
